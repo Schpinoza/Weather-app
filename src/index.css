@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Grape Nuts', cursive;
+  
+  background-image: url("./photo/cold-bg.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  
+}
+
+.search-box{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 5%;
+  border: none;
+  border-radius: 0px 0px 15px 15px;
+  box-shadow: 200px rgba(236, 236, 236),1;
+}
+
+.search-box:focus{
+box-shadow: 0 0 5pt 2pt #D3D3D3;
+outline-width: 0px;  ;
+}
+
+.location-info{
+  position: absolute;
+  left: 35%;
+  top: 40%;
+}
+
+.location-info p {  
+  font-size: 2.5rem;
+}
+
+.celsius{
+ text-align: center;
+ padding: 20px;
+ border: solid;
+ border-width: 2px;
+ border-radius: 20px;
+ box-shadow: 4px 4px rgba(236, 236, 236 ,0.5);
+}
